@@ -24,6 +24,7 @@ int main() {
     cout << "pls select the operation you want to perform"  <<   endl;
     cout << "1. addition\n" << "2. subtraction\n" <<  "3. multiplication\n" << "4. division\n" << endl;
     cin >> choice ;
+    cin>> a;
     if (choice == 1){
     cout << " the sum is : " << sum << endl;
      } else if (choice == 2){
